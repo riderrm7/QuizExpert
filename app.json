@@ -2,6 +2,7 @@
   "expo": {
     "name": "QuizExpert",
     "slug": "QuizExpert",
+    "owner": "axonbitdev",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +14,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.axonbitdev.QuizExpert"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.axonbitdev.QuizExpert"
     },
     "web": {
       "bundler": "metro",
